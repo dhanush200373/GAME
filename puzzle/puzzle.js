@@ -6,6 +6,7 @@ let turns = 0;
 
 // let imgOrder=["1","2","3","4","5","6","7","8","9"];
 let imgOrder = ["8", "4", "9", "2", "6", "7", "5", "1", "3"];
+let firstOrder = ["8", "4", "9", "2", "6", "7", "5", "1", "3"];
 
 
 window.onload = function () {
