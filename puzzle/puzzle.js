@@ -32,7 +32,7 @@ function resetPuzzle(){
     let tiles = document.querySelectorAll("#board img");
 
     for(let i = 0; i < tiles.length; i++){
-        tiles[i].src = "./puzzleImg/" + firstOrder[i] + ".jpg";
+        tiles[i].src = "puzzleImg/" + firstOrder[i] + ".jpg";
     }
 
     turns = 0;
