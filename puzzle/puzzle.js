@@ -13,7 +13,7 @@ window.onload = function () {
         for (let c = 0; c < cloum; c++) {
             let tile = document.createElement("img") // created <img>
             tile.id = r.toString() + "-" + c.toString();
-            tile.src = "./puzzleImg/" + imgOrder.shift() + ".jpg";//./puzzleImg/1.jpg
+            tile.src = "./puzzle/puzzleImg/" + imgOrder.shift() + ".jpg";//./puzzleImg/1.jpg
 
             tile.addEventListener("dragstart", dragStart)
             tile.addEventListener("dragover", dragOver)
